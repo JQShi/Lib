@@ -12,11 +12,11 @@ import com.llq.gift.sale.data.Order;
  * @author Administrator
  *
  */
-public class SingleChoiceStrategy implements Strategy {
+public class AnyoneStrategy implements Strategy {
 
 	private Set<Strategy> strategies = Collections.emptySet();
 
-	public SingleChoiceStrategy(Set<Strategy> strategies) {
+	public AnyoneStrategy(Set<Strategy> strategies) {
 		this.strategies = strategies;
 	}
 
